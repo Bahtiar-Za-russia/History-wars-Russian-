@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История Российских войн</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="file:///C:/Users/ASUS/Desktop/%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0%20%D0%91%D0%B0%D1%85%D1%82%D0%B8/%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/bahtiarowikipedia.html">Бахтияровикипедия</a>
+    </nav>
+      <img src="https://www.prlib.ru/sites/default/files/book_preview/fcddb8b2-0169-484d-b7c2-e0176cc962f0/213888_doc1_4EFBBE71-8A0F-486E-A485-559097601E75.jpg"  width="170px"  alt="Wikipedia logo" class="logo">
+      
+
+        <div class="container">
+    <h2>Быстрый переход на нужный периуд времени</h2>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Сами периуды
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#section1" onclick="scrollToSection('#section1')">с 860 по 1120</a>
+            <a class="dropdown-item" href="#section2" onclick="scrollToSection('#section2')">Section 2</a>
+            <a class="dropdown-item" href="#section3" onclick="scrollToSection('#section3')">Section 3</a>
+        </div>
+    </div>
+
+    <div style="margin-top: 500px;">
+        <h2 id="section1">Section 1</h2>
+        <p>This is the content of section 1.</p>
+    </div>
+
+    <div style="margin-top: 500px;">
+        <h2 id="section2">Section 2</h2>
+        <p>This is the content of section 2.</p>
+    </div>
+
+    <div style="margin-top: 500px;">
+        <h2 id="section3">Section 3</h2>
+        <p>This is the content of section 3.</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        function scrollToSection(sectionId) {
+            $('html, body').animate({
+                scrollTop: $(sectionId).offset().top
+            }, 800);
+        }
+    </script>
+</body>
+</html>
+
